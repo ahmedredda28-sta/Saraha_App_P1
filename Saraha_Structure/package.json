@@ -1,0 +1,21 @@
+{
+  "name": "saraha_structure",
+  "version": "1.0.0",
+  "description": "A project for managing user authentication and database interactions.",
+  "main": "src/DB/index.js",
+  "scripts": {
+    "start": "node src/DB/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9",
+    "jsonwebtoken": "^8.5.1",
+    "bcryptjs": "^2.4.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "author": "Your Name",
+  "license": "ISC"
+}
